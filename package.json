@@ -1,0 +1,32 @@
+{
+  "name": "node-express-handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerishma/Node-Express-Handlebars.git"
+  },
+  "author": "Kerishma Tarin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerishma/Node-Express-Handlebars/issues"
+  },
+  "homepage": "https://github.com/kerishma/Node-Express-Handlebars#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connection": "^1.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "npm": "^6.14.8"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
+}

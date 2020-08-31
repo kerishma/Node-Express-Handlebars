@@ -1,0 +1,68 @@
+<!-- Place Container -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="title">Eat-Burger!
+        <span class="wtf">
+          <br><p>wtf</p>
+          <br><p>Burgers</p>
+        </span>
+      </h1>
+    </div>
+
+    <div class="col-md-12">
+      <div class="burgerImage">
+        <center>
+          <img src="/img/burger.png" alt="Burger">
+        </center>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Burgers Menu!</h2>
+       <ul>
+        {{#each burgers}} {{#unless devoured}}
+         <li>{{burger_name}}</li> 
+         <form class="devour-form button-size">
+						<input input type="hidden" class="burger_id" type="text" value={{this.id}}><br>
+						<button type="submit" class="btn btn-default devoured">Devour it!</button>
+					</form>
+         {{/unless}} {{/each}}
+      </ul> 
+    </div>
+
+    <div class="col-md-6">
+      <h2>Sorry...Burgers Have Been Devoured!</h2>
+       <li>
+	      <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+	      	{{#if devoured}}{{burger_name}}{{else}}{{burger_name}}{{/if}}
+	      </button>
+
+	      <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+        </li>
+        <ul>
+        {{#each burgers}} {{#if devoured}} {{burgers devoured=0}} {{/if}} {{/each}}
+         </ul>
+        </div>
+
+      <div class="col-md-12">
+
+      <h2>Make Your Own Burger</h2>
+      <form class="create-form">
+
+        <div class="form-group">
+          <label for="br">Burger Name:</label>
+          <input type="text" id="br" name="burger_name">
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="center-block btn btn-default"> Add Burger<input type="radio" name="devoured" value="0" checked>
+          </button>
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>
+</div>
