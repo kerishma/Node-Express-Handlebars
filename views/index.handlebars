@@ -19,7 +19,7 @@
     </div>
 
     <div class="col-md-6">
-      <h2>Burgers Menu!</h2>
+      <h2>Burger Menu!</h2>
        <ul>
         {{#each burgers}} {{#unless devoured}}
          <li>{{burger_name}}</li> 
@@ -32,17 +32,17 @@
     </div>
 
     <div class="col-md-6">
-      <h2>Sorry...Burgers Have Been Devoured!</h2>
+      <h2>To Late Burger Has Been Devoured!</h2>
        {{#each burgers}}
        <li>
         {{!-- <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}"> --}}
-          {{#if devoured}}{{burger_name}}{{else}}{{burger_name}}{{/if}}
+          {{#if devoured}}{{burger_name}}
         {{!-- </button> --}}
         <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
         </li>
+      {{/if}}
          {{/each}}
         </div>
-
     {{!-- <div class="col-md-6">
       <h2>Sorry...Burgers Has Been Devoured!</h2>
       {{#each burgers}}
@@ -64,7 +64,7 @@
       <form class="create-form">
 
         <div class="form-group">
-          <label for="br">Burger Name:</label>
+          <label for="br">Name Your Burger:</label>
           <input type="text" id="br" name="burger_name">
         </div>
 

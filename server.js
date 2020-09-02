@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const mysqlConnection = require('./config/connection');
+const connection = require('./config/connection');
 // const BurgerRoutes = require('./models/burger');
 const routes = require('./controllers/burgers_controller.js');
 const exphbs = require('express-handlebars');
