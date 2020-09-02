@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1 class="title">Eat-Burger!
+      <h1 class="title">Eat A Burger!
         <span class="wtf">
           <br><p>wtf</p>
           <br><p>Burgers</p>
@@ -33,6 +33,19 @@
 
     <div class="col-md-6">
       <h2>Sorry...Burgers Have Been Devoured!</h2>
+       {{#each burgers}}
+       <li>
+        {{!-- <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}"> --}}
+          {{#if devoured}}{{burger_name}}{{else}}{{burger_name}}{{/if}}
+        {{!-- </button> --}}
+        <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+        </li>
+         {{/each}}
+        </div>
+
+    {{!-- <div class="col-md-6">
+      <h2>Sorry...Burgers Has Been Devoured!</h2>
+      {{#each burgers}}
        <li>
 	      <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
 	      	{{#if devoured}}{{burger_name}}{{else}}{{burger_name}}{{/if}}
@@ -43,7 +56,7 @@
         <ul>
         {{#each burgers}} {{#if devoured}} {{burgers devoured=0}} {{/if}} {{/each}}
          </ul>
-        </div>
+        </div> --}}
 
       <div class="col-md-12">
 
