@@ -6,7 +6,7 @@ As a user, I created a burger logger with MySQL, Node, Express, Handlebars and a
 
 ## Image 
 
-https://github.com/kerishma/burger/blob/master/public/assets/img/image.png
+(/public/assets/img/image.png)
 
 ## Built With
 
