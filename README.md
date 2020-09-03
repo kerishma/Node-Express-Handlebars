@@ -21,8 +21,6 @@ In this app you are able to look at the burger menu, add new burger, devour the 
 
 - Node
 
-- Nodemon
-
 - Body-Parser
 
 - Express Server
@@ -41,8 +39,7 @@ In this app you are able to look at the burger menu, add new burger, devour the 
 (https://github.com/kerishma/burger)
 
 ## gif Demo
-
-(https://github.com/kerishma/burger/blob/master/Eat-Burger!.gif)
+![Burger Demo](demo/Eat-Burger!.gif)
 
 ## Owner
 Kerishma
