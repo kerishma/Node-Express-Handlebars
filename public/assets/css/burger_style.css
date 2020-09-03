@@ -1,40 +1,40 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 20px;
     line-height: 35px;
-    color: #779;
-    background-color: #b8b9ce;
+    color: rgb(174, 174, 184);
+    background-color: #ededf5;
   }
   span.wtf, p {
     float: right;
-    margin: 0px 25px 0px;
     text-align: right;
-    color: #1f2366;
+    margin: 0px 25px 0px;
+    color: #f3f3f7;
     font: 26px "Fira Sans", serif;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif, cursive;
   }
   
   ul {
     background: #cecfdb;
-    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
   }
   
   input[type="radio"] {
     -webkit-appearance: none;
-    list-style-type: none;
+    list-style-type: decimal-leading-zero;
   }
   
   h1.title {
     height: 150px;
     line-height: 125px;
-    color: #414286;
-    background: #67729c;
+    color: #f0f2f5;
+    background: #888a8d;
     border-bottom: 3px solid #ccc;
     text-align: center;
     padding: 10px;
     margin: 0px 0px 0px;
     font-size: 50px;
-    padding-right: 150px;
+    padding-right: 180px;
   }
   
   h2 {
@@ -43,8 +43,8 @@ body {
     text-align: center;
     line-height: 50px;
     margin: 0px;
-    color: #7a7c88;
-    background: #1099b1;
+    color: #f7f8fd;
+    background: #777777;
     border-bottom: 4px solid #ccc;
   }
   
@@ -60,7 +60,7 @@ body {
   label {
     padding: 10px;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Georgia, Times, 'Times New Roman', serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
   }
   
   .form-group {
@@ -78,10 +78,10 @@ body {
   button[type=submit] {
     padding: 10px 30px;
     font: 30px "Fira Sans", serif;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
     color: #fff;
     cursor: pointer;
-    background: #27c48f;
+    background: #6a696d;
     border: 0 none;
   }
   
@@ -92,9 +92,9 @@ body {
   button {
     width: 100%;
     text-align: center;
-    color: #4927c4;
+    color: #777799;
     font: 30px "Fira Sans", serif;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
     padding: 12px 5px 0px;
   }
   
